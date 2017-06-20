@@ -7,4 +7,4 @@ RUN yum install -y nginx
 COPY root /
 
 ENTRYPOINT ["nginx"]
-CMD ["-d"]
+CMD []
